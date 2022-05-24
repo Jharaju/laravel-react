@@ -1,0 +1,216 @@
+html{width: 100%; height: 100%; box-sizing: border-box;}
+body{width: 100%; height: 100%; background-color: indigo;}
+
+.hidechap{
+    display: none;
+};
+
+.outer{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    z-index: 1;
+}
+
+.inner{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: antiquewhite;
+    z-index: 2;
+}
+.close{
+    width: 30px;
+    height: 30px;
+    border-radius: 40%;
+    background-color: red;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 25px;
+    text-align: center;
+    color: whitesmoke;
+    position: absolute;
+    top: 2px;
+    right: 2px;
+    z-index: 3;
+    align-items: center;
+}
+
+.subButton{
+    border-radius: 4px;
+    padding: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    background-color: black;
+    color: whitesmoke;
+}
+
+.choose_subject{
+    width: 100%;
+    height: auto;
+    border-radius: 2px;
+    background-color: darkblue;
+    color: whitesmoke;
+    position: relative;
+}
+
+.choose_btn{
+    float: right;
+    border-radius: 10px;
+    color: whitesmoke;
+
+}
+.choose_btn:hover{border-bottom: 1px solid darkorange;}
+.chapDiv{
+    cursor: pointer;
+}
+
+#dashboardContent{
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+#gotoMenu{
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    top: 200px;
+    left: 50px;
+}
+
+.goto{
+    font-size: 24px;
+    border-radius: 50%;
+    color: blue;
+    font-weight: bolder;
+    position: fixed;
+}
+
+.subExam{cursor: pointer;}
+.pdf_view{
+    width: 100%;
+    /* height: 1319px; */
+    z-index: 1;
+}
+.count_btn{
+    width: 100%;
+    height: 50px;
+    background-color: red;
+    color: whitesmoke;
+    z-index: 3;
+}
+
+#lft_menu{
+    position: absolute;
+    top: 0;
+    left: 8px;
+    border-radius: 40%;
+    font-size: 22px;
+    color: whitesmoke;
+    background-color: black;
+    align-items: center;
+    text-align: center;
+}
+#close_menu{
+    position: absolute;
+    top: 0;
+    left: 8px;
+    border-radius: 40%;
+    font-size: 22px;
+    color: whitesmoke;
+    background-color: black;
+    text-align: center;
+}
+.blue{background-color: blue;}
+.dark{background-color: black;}
+
+.dark_btn{
+    font-size: 22px;
+    color: whitesmoke;
+    background-color: black;
+    margin-left: 20px;
+    border-radius: 15px;
+}
+.bg_main{background-color: lavenderblush;}
+#exam{visibility: hidden;}
+
+.notfound{
+    font-size: 25px;
+    color: black;
+    font-weight: lighter;
+}
+
+#close_ad{width: 15px; height: auto; text-align: center; z-index: 3; margin: 0; padding: 0;}
+#open_ad{width: 15px; height: auto; text-align: center; z-index: 3; margin: 0; padding: 0;}
+
+#top_header{background-color:greenyellow;}
+#logo_name{
+    font-size: 2.2rem;
+    font-weight: lighter;
+    color: lightcoral;
+}
+
+#main{width: 100%; height: 100%; background-color: lavenderblush;}
+#inner_content{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 60%;
+    left: 0;
+    z-index: 1;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.inner_adv{
+width: 100%;
+height: 250px;
+position: fixed;
+/* background-color: grey; */
+z-index: 1;
+}
+
+#upper_content{width: 100%; height: 100%; z-index: 3;}
+#adv_content{width: 100%; height: 100%; z-index: 3;}
+#slide_content{width: 100%; height: 100%; z-index: 3; margin-top: 5px;}
+#slide{z-index: 3;}
+#outer_content{
+    width: 100%;
+    height: 100%;
+    /* position: relative; */
+    background-color: transparent;
+    z-index: 3;
+}
+#outer_content .card-header h5{color: lightcoral;}
+#outer_content .card-body{color: lightpink;}
+
+.blank{
+    width: 100%;
+    height: 275px;
+    z-index: 3;
+    background-color: transparent;
+    /* background-clip: inherit; */
+}
+
+#footer div{
+    width: 100%;
+    height: 6rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: indigo;
+}
+#footer div p{
+    padding-top: 5px;
+    font-size: 1rem;
+    font-weight: lighter;
+    color: whitesmoke;
+    
+}
+

@@ -1,0 +1,5 @@
+admin- $2y$10$42QFysyUpJ6EBi/qKRBiyuW5zZNVG42M7eeILgBC3osK40vJeBm3i
+
+member- $2y$10$nzzi7F7iWheySwxAfkIUH.Esgt0PUZD/QI2z74M0N2onwqWmetHcK
+
+user- $2y$10$sm7TPzGNnr/G.YBkbvLCmukDUNdZbrGT/IXqYEVSGx9i5BBi542Re
