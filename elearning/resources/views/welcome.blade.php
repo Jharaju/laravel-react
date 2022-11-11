@@ -24,8 +24,8 @@
     </head>
     <body class="antialiased">
         <div id="top-header" class="bg-gray-700">
-        <div class="top-0 left-0 px-6 py-4 mt-3 sm:block" id="logo_name">eLearning</div>
-        <div class="relative flex items-top justify-center sm:items-center py-4 sm:pt-0">
+        <div class="top-0 left-0 px-6 mt-2 text-md underline" id="logo_name">eLearning</div>
+        <div class="relative flex items-top justify-center sm:items-center sm:pt-0">
 
             @if (Route::has('login'))
                 <div class="fixed top-0 right-0 px-6 py-4 sm:block">

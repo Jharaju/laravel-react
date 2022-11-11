@@ -8274,11 +8274,98 @@ var Welcome = function Welcome() {
             className: "sm-col-11",
             id: "slide_content",
             children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
-              id: "slide",
-              children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("h5", {
-                children: "Image Will Appear Here!"
-              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("img", {
-                src: ""
+              id: "carouselExampleCaptions",
+              "class": "carousel slide",
+              "data-bs-ride": "false",
+              children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
+                "class": "carousel-indicators",
+                children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("button", {
+                  type: "button",
+                  "data-bs-target": "#carouselExampleCaptions",
+                  "data-bs-slide-to": "0",
+                  "class": "active",
+                  "aria-current": "true",
+                  "aria-label": "Slide 1"
+                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("button", {
+                  type: "button",
+                  "data-bs-target": "#carouselExampleCaptions",
+                  "data-bs-slide-to": "1",
+                  "aria-label": "Slide 2"
+                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("button", {
+                  type: "button",
+                  "data-bs-target": "#carouselExampleCaptions",
+                  "data-bs-slide-to": "2",
+                  "aria-label": "Slide 3"
+                })]
+              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
+                "class": "carousel-inner",
+                children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
+                  "class": "carousel-item active",
+                  children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("img", {
+                    src: "/storage/images/slide1.jpg",
+                    "class": "slide_img d-block w-100",
+                    alt: ""
+                  }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
+                    "class": "carousel-caption d-none d-md-block",
+                    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("h5", {
+                      children: "First slide label"
+                    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("p", {
+                      children: "Some representative placeholder content for the first slide."
+                    })]
+                  })]
+                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
+                  "class": "carousel-item",
+                  children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("img", {
+                    src: "storage/images/slide2.jpg",
+                    "class": "slide_img d-block w-100",
+                    alt: ""
+                  }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
+                    "class": "carousel-caption d-none d-md-block",
+                    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("h5", {
+                      children: "Second slide label"
+                    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("p", {
+                      children: "Some representative placeholder content for the second slide."
+                    })]
+                  })]
+                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
+                  "class": "carousel-item",
+                  children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("img", {
+                    src: "storage/images/slide3.jpg",
+                    "class": "slide_img d-block w-100",
+                    alt: ""
+                  }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
+                    "class": "carousel-caption d-none d-md-block",
+                    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("h5", {
+                      children: "Third slide label"
+                    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("p", {
+                      children: "Some representative placeholder content for the third slide."
+                    })]
+                  })]
+                })]
+              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("button", {
+                "class": "carousel-control-prev",
+                type: "button",
+                "data-bs-target": "#carouselExampleCaptions",
+                "data-bs-slide": "prev",
+                children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("span", {
+                  "class": "carousel-control-prev-icon",
+                  "aria-hidden": "true"
+                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("span", {
+                  "class": "visually-hidden",
+                  children: "Previous"
+                })]
+              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("button", {
+                "class": "carousel-control-next",
+                type: "button",
+                "data-bs-target": "#carouselExampleCaptions",
+                "data-bs-slide": "next",
+                children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("span", {
+                  "class": "carousel-control-next-icon",
+                  "aria-hidden": "true"
+                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("span", {
+                  "class": "visually-hidden",
+                  children: "Next"
+                })]
               })]
             })
           })
@@ -13428,7 +13515,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "html{width: 100%; height: 100%; box-sizing: border-box;}\nbody{width: 100%; height: 100%; background-color: indigo;}\n\n.hidechap{\n    display: none;\n};\n\n.outer{\n    width: 100%;\n    height: 100%;\n    position: relative;\n    z-index: 1;\n}\n\n.inner{\n    width: 100%;\n    height: 100%;\n    position: absolute;\n    top: 0;\n    left: 0;\n    background-color: antiquewhite;\n    z-index: 2;\n}\n.close{\n    width: 30px;\n    height: 30px;\n    border-radius: 40%;\n    background-color: red;\n    justify-content: center;\n    cursor: pointer;\n    font-size: 25px;\n    text-align: center;\n    color: whitesmoke;\n    position: absolute;\n    top: 2px;\n    right: 2px;\n    z-index: 3;\n    align-items: center;\n}\n\n.subButton{\n    border-radius: 4px;\n    padding: 3px;\n    padding-left: 5px;\n    padding-right: 5px;\n    text-decoration: none;\n    cursor: pointer;\n    background-color: black;\n    color: whitesmoke;\n}\n\n.choose_subject{\n    width: 100%;\n    height: auto;\n    border-radius: 2px;\n    background-color: darkblue;\n    color: whitesmoke;\n    position: relative;\n}\n\n.choose_btn{\n    float: right;\n    border-radius: 10px;\n    color: whitesmoke;\n\n}\n.choose_btn:hover{border-bottom: 1px solid darkorange;}\n.chapDiv{\n    cursor: pointer;\n}\n\n#dashboardContent{\n    width: 100%;\n    height: auto;\n    position: relative;\n}\n\n#gotoMenu{\n    width: 25px;\n    height: 25px;\n    position: absolute;\n    top: 200px;\n    left: 50px;\n}\n\n.goto{\n    font-size: 24px;\n    border-radius: 50%;\n    color: blue;\n    font-weight: bolder;\n    position: fixed;\n}\n\n.subExam{cursor: pointer;}\n.pdf_view{\n    width: 100%;\n    /* height: 1319px; */\n    z-index: 1;\n}\n.count_btn{\n    width: 100%;\n    height: 50px;\n    background-color: red;\n    color: whitesmoke;\n    z-index: 3;\n}\n\n#lft_menu{\n    position: absolute;\n    top: 0;\n    left: 8px;\n    border-radius: 40%;\n    font-size: 22px;\n    color: whitesmoke;\n    background-color: black;\n    align-items: center;\n    text-align: center;\n}\n#close_menu{\n    position: absolute;\n    top: 0;\n    left: 8px;\n    border-radius: 40%;\n    font-size: 22px;\n    color: whitesmoke;\n    background-color: black;\n    text-align: center;\n}\n.blue{background-color: blue;}\n.dark{background-color: black;}\n\n.dark_btn{\n    font-size: 22px;\n    color: whitesmoke;\n    background-color: black;\n    margin-left: 20px;\n    border-radius: 15px;\n}\n.bg_main{background-color: lavenderblush;}\n#exam{visibility: hidden;}\n\n.notfound{\n    font-size: 25px;\n    color: black;\n    font-weight: lighter;\n}\n\n#close_ad{width: 15px; height: auto; text-align: center; z-index: 3; margin: 0; padding: 0;}\n#open_ad{width: 15px; height: auto; text-align: center; z-index: 3; margin: 0; padding: 0;}\n\n#top_header{background-color:greenyellow;}\n#logo_name{\n    font-size: 2.2rem;\n    font-weight: lighter;\n    color: lightcoral;\n}\n\n#main{width: 100%; height: 100%; background-color: lavenderblush;}\n#inner_content{\n    width: 100%;\n    height: 100%;\n    position: absolute;\n    top: 60%;\n    left: 0;\n    z-index: 1;\n    margin: 0;\n    padding: 0;\n    \n}\n\n.inner_adv{\nwidth: 100%;\nheight: 250px;\nposition: fixed;\n/* background-color: grey; */\nz-index: 1;\n}\n\n#upper_content{width: 100%; height: 100%; z-index: 3;}\n#adv_content{width: 100%; height: 100%; z-index: 3;}\n#slide_content{width: 100%; height: 100%; z-index: 3; margin-top: 5px;}\n#slide{z-index: 3;}\n#outer_content{\n    width: 100%;\n    height: 100%;\n    /* position: relative; */\n    background-color: transparent;\n    z-index: 3;\n}\n#outer_content .card-header h5{color: lightcoral;}\n#outer_content .card-body{color: lightpink;}\n\n.blank{\n    width: 100%;\n    height: 275px;\n    z-index: 3;\n    background-color: transparent;\n    /* background-clip: inherit; */\n}\n\n#footer div{\n    width: 100%;\n    height: 6rem;\n    display: flex;\n    flex-direction: row;\n    justify-content: center;\n    background-color: indigo;\n}\n#footer div p{\n    padding-top: 5px;\n    font-size: 1rem;\n    font-weight: lighter;\n    color: whitesmoke;\n    \n}\n\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "html{width: 100%; height: 100%; box-sizing: border-box;}\nbody{width: 100%; height: 100%; background-color: indigo;}\n\n.hidechap{\n    display: none;\n};\n\n.outer{\n    width: 100%;\n    height: 100%;\n    position: relative;\n    z-index: 1;\n}\n\n.inner{\n    width: 100%;\n    height: 100%;\n    position: absolute;\n    top: 0;\n    left: 0;\n    background-color: antiquewhite;\n    z-index: 2;\n}\n.close{\n    width: 30px;\n    height: 30px;\n    border-radius: 40%;\n    background-color: red;\n    justify-content: center;\n    cursor: pointer;\n    font-size: 25px;\n    text-align: center;\n    color: whitesmoke;\n    position: absolute;\n    top: 2px;\n    right: 2px;\n    z-index: 3;\n    align-items: center;\n}\n\n.subButton{\n    border-radius: 4px;\n    padding: 3px;\n    padding-left: 5px;\n    padding-right: 5px;\n    text-decoration: none;\n    cursor: pointer;\n    background-color: black;\n    color: whitesmoke;\n}\n\n.choose_subject{\n    width: 100%;\n    height: auto;\n    border-radius: 2px;\n    background-color: darkblue;\n    color: whitesmoke;\n    position: relative;\n}\n\n.choose_btn{\n    float: right;\n    border-radius: 10px;\n    color: whitesmoke;\n\n}\n.choose_btn:hover{border-bottom: 1px solid darkorange;}\n.chapDiv{\n    cursor: pointer;\n}\n\n#dashboardContent{\n    width: 100%;\n    height: auto;\n    position: relative;\n}\n\n#gotoMenu{\n    width: 25px;\n    height: 25px;\n    position: absolute;\n    top: 200px;\n    left: 50px;\n}\n\n.goto{\n    font-size: 24px;\n    border-radius: 50%;\n    color: blue;\n    font-weight: bolder;\n    position: fixed;\n}\n\n.subExam{cursor: pointer;}\n.pdf_view{\n    width: 100%;\n    /* height: 1319px; */\n    z-index: 1;\n}\n.count_btn{\n    width: 100%;\n    height: 50px;\n    background-color: red;\n    color: whitesmoke;\n    z-index: 3;\n}\n\n#lft_menu{\n    position: absolute;\n    top: 0;\n    left: 8px;\n    border-radius: 40%;\n    font-size: 22px;\n    color: whitesmoke;\n    background-color: black;\n    align-items: center;\n    text-align: center;\n}\n#close_menu{\n    position: absolute;\n    top: 0;\n    left: 8px;\n    border-radius: 40%;\n    font-size: 22px;\n    color: whitesmoke;\n    background-color: black;\n    text-align: center;\n}\n.blue{background-color: blue;}\n.dark{background-color: black;}\n\n.dark_btn{\n    font-size: 22px;\n    color: whitesmoke;\n    background-color: black;\n    margin-left: 20px;\n    border-radius: 15px;\n}\n.bg_main{background-color: lavenderblush;}\n#exam{visibility: hidden;}\n\n.notfound{\n    font-size: 25px;\n    color: black;\n    font-weight: lighter;\n}\n\n#close_ad{width: 15px; height: auto; text-align: center; z-index: 3; margin: 0; padding: 0;}\n#open_ad{width: 15px; height: auto; text-align: center; z-index: 3; margin: 0; padding: 0;}\n\n#top_header{background-color:greenyellow;}\n#logo_name{\n    font-size: 2.2rem;\n    font-weight: lighter;\n    color: lightcoral;\n}\n\n#main{width: 100%; height: 100%; background-color: lavenderblush;}\n#inner_content{\n    width: 100%;\n    height: 100%;\n    position: absolute;\n    top: 60%;\n    left: 0;\n    z-index: 1;\n    margin: 0;\n    padding: 0;\n    \n}\n\n.inner_adv{\nwidth: 100%;\nheight: 250px;\nposition: fixed;\n/* background-color: grey; */\nz-index: 1;\n}\n\n#upper_content{width: 100%; height: 100%; z-index: 3;}\n#adv_content{width: 100%; height: 100%; z-index: 3; background-color:darkgray}\n#slide_content{width: 100%; height: 100%; z-index: 3; margin-top: 5px;}\n\n.w-100{\n    width: 100%;\n    height: 20rem !important;\n    background-size: cover;\n    background-repeat: no-repeat;\n}\n#outer_content{\n    width: 100%;\n    height: 100%;\n    /* position: relative; */\n    background-color: transparent;\n    z-index: 3;\n}\n#outer_content .card-header h5{color: lightcoral;}\n#outer_content .card-body{color: lightpink;}\n\n.blank{\n    width: 100%;\n    height: 275px;\n    z-index: 3;\n    background-color: transparent;\n    /* background-clip: inherit; */\n}\n\n#footer{z-index: 3;}\n#footer div{\n    width: 100%;\n    height: 6rem;\n    display: flex;\n    flex-direction: row;\n    justify-content: center;\n    background-color: indigo;\n    z-index: 3;\n}\n#footer div p{\n    padding-top: 5px;\n    font-size: 1rem;\n    font-weight: lighter;\n    color: whitesmoke;\n    \n}\n\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
